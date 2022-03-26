@@ -9,7 +9,7 @@ class Program
         int hours;
         double pay;
         double govtaken;
-
+        
         Console.WriteLine("Please enter your hourly wage and your hours worked");
         Console.WriteLine("");
 
@@ -22,7 +22,7 @@ class Program
 
         Console.WriteLine("Your salary is: " + pay.ToString("0.00") + "$");
         Console.WriteLine("The goverment will tkae: " + govtaken.ToString("0.00") + "$");
-
+        
         Console.WriteLine("\nDone.");
     }
 }
